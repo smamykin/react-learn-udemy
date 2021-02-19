@@ -6,5 +6,59 @@
           "mouth",
           "haven"
       ]
+   },
+   {
+      "productId": 1,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   },
+   {
+      "productId": 2,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   },
+   {
+      "productId": 3,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   },{
+      "productId": 4,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   },{
+      "productId": 5,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   },{
+      "productId": 6,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   }
+   ,
+   {
+      "productId": 7,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
    }
 ]
