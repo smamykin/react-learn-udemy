@@ -1,0 +1,10 @@
+[
+   {
+      "productId": 0,
+      "popularity": 1234,
+      "locations": [
+          "mouth",
+          "haven"
+      ]
+   }
+]
