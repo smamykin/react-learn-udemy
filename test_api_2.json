@@ -1,0 +1,18 @@
+{
+  "items": [
+    {
+      "locationCode": "moscow",
+      "guid": "ajsdf32425123",
+      "name": "moscow",
+      "regionLocationCode": "msk",
+      "sequenceId": 0
+    },
+    {
+      "locationCode": "noginsk",
+      "guid": "ajsdfjie245234",
+      "name": "noginsk",
+      "regionLocationCode": "spb",
+      "sequenceId": 33
+    }
+  ]
+}

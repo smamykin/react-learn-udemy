@@ -1,0 +1,16 @@
+{
+  "items": [
+    {
+      "locationCode": "msk",
+      "guid": "ajsdfjieowf",
+      "name": "Moscow Region",
+      "sequenceId": 0
+    },
+    {
+      "locationCode": "spb",
+      "guid": "ajsdfjieo23",
+      "name": "SPB Region",
+      "sequenceId": 33
+    }
+  ]
+}
