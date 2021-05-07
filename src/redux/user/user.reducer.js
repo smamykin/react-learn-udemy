@@ -1,7 +1,8 @@
 import UserActionTypes from "./user.types";
 
 const INITIAL_STATE = {
-  currentUser: null
+  currentUser: null,
+  error: null,
 };
 
 const userReducer = (state = INITIAL_STATE, action) => {
@@ -11,7 +12,7 @@ const userReducer = (state = INITIAL_STATE, action) => {
       currentUser: action.payload,
       error: null,
     };
-  } else if (action.type === UserActionTypes.SIGN_IN_SUCCESS) {
+  } else if (action.type === UserActionTypes.SIGN_OUT_SUCCESS) {
     return {
       ...state,
       currentUser: null,

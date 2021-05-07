@@ -2,7 +2,6 @@ import React from "react";
 import {connect} from "react-redux";
 import {createStructuredSelector} from "reselect";
 
-import {auth} from "../../firebase/firebase.utils";
 import CartIcon from "../cart-icon/cart-icon.component";
 import CartDropdown from "../cart-dropdown/cart-dropdown.component";
 import {selectCartHidden} from "../../redux/cart/cart.selectors";
@@ -15,7 +14,7 @@ import {HeaderContainer, LogoContainer, OptionContainer, OptionLink} from "./hea
 
 const Header = ({currentUser, hidden, signOutStart}) => (
   <HeaderContainer>
-    <LogoContainer to="/"><Logo className="log"/></LogoContainer>
+    <LogoContainer to="/"><Logo className="logo"/></LogoContainer>
     <OptionContainer>
         <OptionLink to='/shop'>SHOP</OptionLink>
         <OptionLink to='/shop'>CONTACT</OptionLink>
