@@ -11,7 +11,13 @@ const userReducer = (state = INITIAL_STATE, action) => {
       currentUser: action.payload,
       error: null,
     };
-  } else if (action.type === UserActionTypes.SIGN_IN_FAILURE) {
+  } else if (action.type === UserActionTypes.SIGN_IN_SUCCESS) {
+    return {
+      ...state,
+      currentUser: null,
+      error: null,
+    }
+  } else if ([UserActionTypes.SIGN_OUT_FAILURE, UserActionTypes.SIGN_IN_FAILURE].includes(action.type)) {
     return {
       ...state,
       error: action.payload,
